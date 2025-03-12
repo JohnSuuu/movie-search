@@ -5,6 +5,8 @@ import NavBar from './components/NavBar'
 import { Routes, Route } from "react-router-dom"
 import Favorites from './pages/favorites'
 import { MovieProvider } from './contexts/MovieContexts'
+import Dislike from './pages/Dislike'
+
 function App() {
 
 
@@ -15,6 +17,7 @@ function App() {
         <Routes>
           <Route path='/movie-search' element={<Home />} />
           <Route path='/favorites' element={<Favorites />} />
+          <Route path='/dislike' element={<Dislike />} />
         </Routes>
       </main>
     </MovieProvider>

@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base:"/movie-search",
+  server: {
+    port: 3001, // 更改为你想要的端口
+  },
 })
