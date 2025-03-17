@@ -33,7 +33,6 @@ export const MovieProvider = ({children})=> {
         ))
     }
 
-
     const value = {
         favorites,
         isFav,
